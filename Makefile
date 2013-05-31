@@ -2,4 +2,4 @@ all:
 	ghc -O2 Main.hs
 
 clean:
-	rm *.o *.hi Main
+	rm -f *.o *.hi Main
