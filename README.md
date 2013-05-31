@@ -6,6 +6,7 @@ This package demonstrates that GHC.Event.PSQ causes segfault.
 * GHC head is used  AND
 * the -O2 option is specified
 
+
     % make
     % ./Main
     ...
