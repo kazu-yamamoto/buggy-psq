@@ -12,3 +12,6 @@ To execute:
     % ./Main
     ...
     zsh: segmentation fault  ./Main
+
+"PSQ.hs" and "Unique.hs" are copied from GHC.Event and their
+module names are modified. `atMost` causes the segfault.
